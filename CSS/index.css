@@ -1,0 +1,507 @@
+body {
+  background-color: #FEFEFA;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #1E1E1E;
+}
+
+  /* Navbar Styles */
+
+#joelson .navbar-styles {
+  color: #1E1E1E;
+  background-color: #FEFEFA !important;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+#joelson .navbar-styles .navbar-brand {
+  margin-left: -5vw; 
+}
+
+#joelson .navbar-styles .navbar-nav {
+  margin-right: -5vw; 
+}
+
+#joelson .contact-btn-styles {
+  color: #FEFEFA !important;
+  background-color: #1E1E1E;
+  border-radius: 20px;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#joelson .contact-btn-styles:hover {
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+#joelson .logo-container {
+  position: relative;
+  width: 400px;  
+  height: 50px;  
+}
+
+#joelson .logo, .logo-expanded {
+  position: absolute;
+  height: 100%;
+  transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+#joelson .logo {
+  opacity: 1;
+  width: 50px; 
+  left:0px;
+}
+
+#joelson .logo-expanded {
+  opacity: 0;
+  width: 20%;
+}
+
+#joelson .logo-container:hover .logo {
+  left:7px;
+  opacity: 0;
+
+}
+
+#joelson .logo-container:hover .logo-expanded {
+  opacity: 1;
+  width: 100%;
+}
+
+@media (max-width: 574px) {
+  #joelson .navbar-styles .navbar-brand {
+    display: none;
+  }
+
+  #joelson .navbar-toggler {
+  margin-left: 10px;
+}
+}
+
+
+/* Accordian Styles */
+
+#joelson .accordion-body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#joelson .accordion-button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+#joelson .accordion-button, .accordion-body {
+  background-color: #FEFEFA;  
+}
+
+#joelson .accordion-button:not(.collapsed) {
+  color: inherit; 
+  background-color: #FEFEFA; 
+}
+
+#joelson .accordion-button:focus {
+  box-shadow: none; 
+}
+
+#joelson h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+   /* MAIN DIVS */
+#renata .featurewrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*   gap: 50px; */
+  height: auto;
+  width: 80%;
+  margin: 10%;
+}
+
+
+/* SECUNDARY DIVS */
+#renata .intro {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+}
+
+#renata .introimg {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  background-position: 50% 70%;
+}
+
+
+
+#renata .featureitem {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  align-content: center;
+  margin-top: 100px;
+}
+
+#renata .text {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#renata .p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#renata .featureimg {
+  display: block;
+  height: 60vh;
+  width: 50%;
+  margin-top: 100px;
+}
+
+/* IMAGES */
+#img1 {
+  display: block;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1534413298607-48ba59e8a06d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+}
+
+#img2 {
+  background-image: url("https://images.unsplash.com/photo-1486403184395-fc4990866136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#img3 {
+  background-image: url("https://raizinvest.com.au/investors/wp-content/uploads/2019/10/car.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#img4 {
+  background-image: url("https://images.unsplash.com/photo-1524080989185-22b076ffb631?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* FONTS */
+#renata .h1intro {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#renata .h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#renata .h2 {
+  margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* HOW SECTION */
+
+#renata .how {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  height: auto;
+  width: 80%;
+  margin: 10%;
+}
+
+#renata .titlecontainer {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+
+#renata .howwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+
+}
+
+#renata .howtext {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 30px;
+}
+
+#renata .howsteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  gap: 5px;
+}
+
+.howicon {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 10px;
+
+}
+
+#bus {
+  width: 36px;
+}
+
+.video {
+  height: 60vh;
+  width: 40%;
+  overflow: hidden;
+}
+
+#howimg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+/* JQUERY */
+/* preparing Ipad screen view  */
+@media only screen and (max-width: 1208px) {
+  #renata .h1intro {
+      font-family: 'Raleway', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+  }
+
+  #renata .h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+  }
+}
+
+/* Ipad screen view  */
+@media only screen and (max-width: 768px) {
+
+  #renata .featurewrap {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      height: auto;
+      width: 80%;
+      margin: 10%;
+  }
+
+  #renata .intro {
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+
+
+  }
+
+  #renata .introimg {
+      width: 100%;
+      height: 60vh;
+
+  }
+
+  #renata .text {
+      padding: 0px;
+      width: 100%;
+  }
+
+  #renata .featureitem {
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+  }
+
+  #renata .featureimg {
+      width: 100%;
+      height: 50vh;
+      margin-top: 50px;
+  }
+
+  #renata .how {
+      width: 80%;
+      margin: 10%;
+  }
+
+  #renata .howwrap {
+      flex-direction: row;
+      gap: 20px;
+  }
+
+  #renata .titlecontainer {
+      padding: 0px;
+  }
+
+  #renata .howtext {
+      padding: 0px;
+  }
+
+  .video {
+      display: flex;
+      height: auto;
+      width: 46%;
+      justify-content: center;
+  }
+}
+  /* Iphone screen view  */
+  @media only screen and (max-width: 390px) {
+      #renata .h1intro {
+          font-family: 'Raleway', sans-serif;
+          font-size: 40px;
+          font-weight: 700;
+      }
+
+      #renata .h1 {
+          font-family: 'Raleway', sans-serif;
+          font-size: 36px;
+          font-weight: 700;
+      }
+
+      #renata .howwrap {
+          gap: 50px;
+          justify-content: center;
+      }
+
+      #howimg {
+          width: 100%;
+      }
+
+      #renata .titlecontainer {
+          width: 100%;
+      }
+
+      #renata .howtext {
+          width: 100%;
+      }
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+#vismayee .container{
+	max-width: 1170px;
+	margin:auto;
+}
+ #vismayee .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+#vismayee .ul{
+	list-style: none;
+}
+#vismayee .footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+#vismayee .footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+#vismayee .footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+#vismayee .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #f2aa3c;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+#vismayee .footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+#vismayee .footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+#vismayee .footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+#vismayee .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+#vismayee .footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  #vismayee .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+ #vismayee .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
